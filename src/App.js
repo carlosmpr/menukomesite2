@@ -25,7 +25,7 @@ function App() {
         text="Easy to use
 A quick scan of the QR code and your customers will get your menu instantly."
         image={Iphone}
-        reverse={"flex-row-reverse"}
+        reverse={"md:flex-row-reverse"}
       />
 
       <SideInfo

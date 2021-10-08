@@ -1,7 +1,7 @@
 import React from 'react'
 import SocialBadge from './Reasubles/SocialBadge'
 const styles = {
-    input:"md:w-2/6 p-4 shadow-md rounded-lg focus:outline-none ring-yellow-200 focus:ring focus:border-yellow-300"
+    input:"w-10/12 md:w-2/6 p-4 shadow-md rounded-lg focus:outline-none ring-yellow-200 focus:ring focus:border-yellow-300"
 }
 export default function Contact() {
     return (

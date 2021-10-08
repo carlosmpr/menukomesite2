@@ -3,7 +3,7 @@ import Half from '../assets/icons/iphone.svg'
 import FlyingIcons from './Reasubles/FlyingIcons'
 export default function Banner() {
     return (
-        <div className="w-screen relative h-screen flex flex-col items-center justify-center  ">
+        <div className="w-screen relative  flex flex-col items-center justify-center  ">
            <FlyingIcons text="House Favorites" position={{left:'10%'}} icon={`fas fa-heart`}/>
            <FlyingIcons text="Chef Favorites" position={{right:'10%'}} icon={`fas fa-utensils`}/>
            <FlyingIcons text="User likes" position={{left:'10%' , bottom:'10%'}} icon={`fas fa-thumbs-up`}/>
