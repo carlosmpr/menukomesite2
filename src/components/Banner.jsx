@@ -10,6 +10,7 @@ export default function Banner() {
             <h1 className="text-7xl font-bold ">Welcome to <span className="text-primary">MenuKome</span></h1>
             <h3 className="text-3xl font-regular">Smart menu for Restaurants</h3>
             <img src={Half} alt={Half} className="w-5/12"/>
+            <div className="absolute   bg-red-400" style={{left:'38%', top:'32%', width:'29%', height:"65%"}}></div>
     
         </div>
     )
