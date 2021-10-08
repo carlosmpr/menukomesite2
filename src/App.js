@@ -7,6 +7,7 @@ import SideInfo from "./components/Reasubles/SideInfo";
 import Iphone from "./assets/icons/full.svg";
 import CenterInfo from "./components/CenterInfo";
 import Features from "./components/Features/Features";
+import Data from "./components/Data";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ A quick scan of the QR code and your customers will get your menu instantly."
       />
       <CenterInfo />
       <Features />
+      <Data />
     </>
   );
 }
