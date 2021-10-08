@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import InFoBanner from "./components/Reasubles/InFoBanner";
 import SideInfo from "./components/Reasubles/SideInfo";
 import Iphone from "./assets/icons/full.svg";
+import CenterInfo from "./components/CenterInfo";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ A quick scan of the QR code and your customers will get your menu instantly."
         Using photos that stand up your dishes allows your customers to appreciate better and make an ordering decision."
         image={Iphone}
       />
+      <CenterInfo />
     </>
   );
 }
