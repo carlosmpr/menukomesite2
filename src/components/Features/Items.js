@@ -15,7 +15,7 @@ export const data = [{
     text:"Your customer's will always have the menu on their mobile device.",
     icon:"fas fa-hand-paper text-4xl"
 },
-
+//
 {
     title:"Support",
     text:'24/7  support for modifications, maintenance, updates or errors for your application at any time.',
