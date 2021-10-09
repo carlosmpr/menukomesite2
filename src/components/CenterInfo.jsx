@@ -52,6 +52,8 @@ export default function CenterInfo() {
           <img
             src="https://menukome.s3.amazonaws.com/menupresent2.gif"
             className="w-full"
+
+            alt="gift"
           />
         </div>
       </animated.div>

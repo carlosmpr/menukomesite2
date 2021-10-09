@@ -23,7 +23,7 @@ export default function Banner() {
 
   
   return (
-    <div className="w-screen relative  flex flex-col items-center justify-center  ">
+    <div className="w-screen relative  flex flex-col items-center justify-center mt-10 md:mt-20">
       <FlyingIcons
         text="House Favorites"
         position={{ left: "10%" }}
