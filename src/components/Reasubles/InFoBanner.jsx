@@ -1,17 +1,22 @@
 import React from "react";
-import { useSpring, animated } from "@react-spring/web";
+import { useInView } from "react-intersection-observer";
+import AnimateText from "./AnimateText";
 export default function InFoBanner({ text }) {
-    const appear = useSpring({
 
-        from:{opacity:0},
-        to:{opacity:1},
-        delay:500
-    })
+    let {  ref, inView,  } = useInView({
+      /* Optional options */
+      threshold: 0,
+      triggerOnce: true
+    });
   return (
-    <animated.div className="w-screen h-screen flex flex-col items-center justify-center bg-gray-100" style={appear}>
+    <div className="relative w-screen h-screen flex flex-col items-center justify-center bg-gray-100"  >
+      <div className="absolute bottom-0  w-24 h-24" ref={ref}></div>
+      {inView ? 
       <div className="md:w-1/2">
-        <h3 className="text-xl md:text-2xl lg:text-3xl text-center font-semibold">{text}</h3>
+       <AnimateText text={text} />
       </div>
-    </animated.div>
+
+      :null}
+    </div>
   );
 }

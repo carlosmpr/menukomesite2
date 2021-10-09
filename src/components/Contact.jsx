@@ -46,11 +46,11 @@ export default function Contact() {
       </h1>
 
       <div className="w-2/6 flex gap-x-4  items-center justify-center">
-        <SocialBadge icon="text-2xl md:text-4xl fab fa-facebook" />
-        <SocialBadge icon="text-2xl md:text-4xl fab fa-instagram" url="https://www.instagram.com/menukome/" />
-        <SocialBadge icon="text-2xl md:text-4xl fas fa-envelope" url="mailto: menukome@gmail.com"/>
-        <SocialBadge icon="text-2xl md:text-4xl fab fa-whatsapp" />
-        <SocialBadge icon="text-2xl md:text-4xl fab fa-tiktok" />
+        {/* <SocialBadge icon="text-2xl md:text-4xl fab fa-facebook" /> */}
+        <SocialBadge icon="text-2xl md:text-4xl fab fa-instagram" url="https://www.instagram.com/menukome/" info={"@menukome"}/>
+        <SocialBadge icon="text-2xl md:text-4xl fas fa-envelope" url="mailto: menukome@gmail.com" info={"menukome@gmail.com"}/>
+        <SocialBadge icon="text-2xl md:text-4xl fab fa-whatsapp" info={"(917)-652-6644"} url="whatsapp://send?text=Hello World!&phone=+19176526644" />
+        <SocialBadge icon="text-2xl md:text-4xl fab fa-tiktok"  url="https://www.tiktok.com/@menukome" info={"@menukome"}/>
       </div>
 
       {success ? (
